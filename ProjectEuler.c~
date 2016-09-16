@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int sum1000of3n5() {
+  int x = 3;
+  int y = 5;
+  int sum = 0;
+  while (x <= 1000 && y <= 1000) {
+    if (x <= 1000) {
+      sum += x;
+      x += 3;
+    }
+    if (y <= 1000) {
+      sum += y;
+      y+= 5;
+    }
+  }
+}
